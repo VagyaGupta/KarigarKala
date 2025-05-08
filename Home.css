@@ -1,0 +1,157 @@
+/* .landing-image-container {
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+ 
+}
+.landing-image {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+.category {
+  margin: 8rem auto;
+  text-align: center;
+  width: 90%;
+}
+.landing-ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.landing-ul li {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  color: #fff;
+  font-weight: 600;
+  height: 200px;
+  text-shadow: 1px 2px #666;
+  list-style: none;
+  margin: 1.2rem;
+  border-radius: 5px;
+  background-size: cover;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.landing-ul li:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+} */
+
+
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 10%;
+  background: aliceblue;
+  /* background: linear-gradient(to right, #fff5ee, #fdfcfb); */
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.hero-quote {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #555;
+  margin: 1rem 0 2rem;
+}
+
+.hero-btn {
+  background: #4fa94d;
+  color: white;
+  padding: 0.8rem 1.8rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.hero-btn:hover {
+  background: #3b863c;
+}
+
+.hero-image {
+  width: 400px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  margin-top: 2rem;
+}
+
+/* Quote Banner */
+.quote-banner {
+  background: #f2e9e4;
+  padding: 1.5rem;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #6b4226;
+  margin-top: 2rem;
+}
+
+/* Category Section */
+.category-section {
+  padding: 4rem 10%;
+  background-color:aliceblue;
+}
+
+.section-heading {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.category-card {
+  height: 280px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.category-card:hover {
+  transform: scale(1.03);
+}
+
+.category-content {
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
+  color: white;
+  padding: 1rem;
+  width: 100%;
+}
+
+.category-content h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.category-content p {
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+}
